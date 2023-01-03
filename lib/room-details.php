@@ -31,7 +31,7 @@
           <!-- Product info -->
           <div class="mx-auto max-w-2xl px-2 md:px-4 pt-10 pb-16 sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-3 lg:grid-rows-[auto,auto,1fr] lg:gap-x-8 lg:px-8 lg:pt-16 lg:pb-24">
             <div class="lg:col-span-2 lg:border-r lg:border-gray-200 lg:pr-8">
-              <h1 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl uppercase">Apollo Room</h1>
+              <h1 class="text-[70px] font-bold tracking-tight text-gray-900 uppercase"><span class="heading1">Apollo</span> <span class="heading2">Room</span></h1>
             </div>
             <!-- Options -->
             <div class="mt-4 lg:row-span-3 lg:mt-0">
@@ -128,29 +128,12 @@
                   <ul class="grid gap-2 w-full md:grid-cols-3 mt-2" id="test">
                     <li>
                       <input type="radio" id="hosting-small" name="hosting" value="hosting-small" class="hidden peer" required>
-                        <label data-popover-target="profile2" for="hosting-small" class="inline-flex w-full items-center justify-center p-3 text-gray-500 bg-white rounded-lg border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:border-blue-600 peer-checked:text-blue-600 hover:text-gray-600 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                        <label for="hosting-small" class="inline-flex w-full items-center justify-center p-3 text-gray-500 bg-white rounded-lg border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:border-blue-600 peer-checked:text-blue-600 hover:text-gray-600 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
                         <svg class="mr-2 w-3 h-3" fill="currentColor" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 24 24"><path d="M22 13c-.027-5.497-4.497-10-10-10s-9.973 4.503-10 10h2.5c.828 0 1.5.672 1.5 1.5v7c0 .828-.672 1.5-1.5 1.5h-3c-.828 0-1.5-.672-1.5-1.5v-8.5c.027-6.601 5.394-12 12-12s11.973 5.399 12 12v8.5c0 .828-.672 1.5-1.5 1.5h-3c-.828 0-1.5-.672-1.5-1.5v-7c0-.828.672-1.5 1.5-1.5h2.5z"/></svg>
                         <div class="block">
                           <div class="w-full text-xs font-semibold">Senior 1</div>
                         </div>
                       </label>
-                      <div data-popover id="profile2" role="tooltip" class="absolute z-10 invisible inline-block w-64 text-sm font-light text-gray-500 transition-opacity duration-300 bg-slate-100 border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-gray-400 dark:bg-gray-800 dark:border-gray-600">
-                        <div class="p-3">
-                            <div class="flex items-center justify-between mb-2">
-                                <a href="#">
-                                    <img class="w-10 h-10 rounded-full" src="https://flowbite.com/docs/images/people/profile-picture-1.jpg" alt="Jese Leos">
-                                </a>
-                            </div>
-                            <p class="text-base font-semibold leading-none text-gray-900 dark:text-white">
-                                <a href="#">Jese Leos</a>
-                            </p>
-                            <p class="mb-3 text-sm font-normal">
-                                <a href="#" class="hover:underline">@jeseleos</a>
-                            </p>
-                            <p class="mb-4 text-sm font-light">Proficient in use of digital and multimedia recording and sound applications. Knowledgeable in the area of audio signal processing.</p>
-                        </div>
-                        <div data-popper-arrow></div>
-                    </div>
                     </li>
                     <li>
                       <input type="radio" id="hosting-big" name="hosting" value="hosting-big" class="hidden peer">
@@ -275,3 +258,5 @@
     </div>
   </div>
 </div>
+
+

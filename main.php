@@ -3,7 +3,7 @@
  * Plugin Name: Bayeight Booking Plugin
  * Author: TVS
  * Author URI: 
- * Version: 1.0.0
+ * Version: 1.0.1
  * Description: Bayeight Custom Booking Plugin.
  * Text-Domain: bayeight-booking-plugin
  */

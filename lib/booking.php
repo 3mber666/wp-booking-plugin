@@ -15,10 +15,22 @@ $request_uri_string = $_SERVER['REQUEST_URI'];
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@100;200;300;400;500;700;800&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.5/dist/flowbite.min.css" />
-
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <style>
+
+            .heading1 {
+              font-family: 'Anton', sans-serif;
+              letter-spacing: 1px!important; 
+            }
+
+            .heading2 {
+              font-family: 'Anton', sans-serif;
+              letter-spacing: 2px;
+              color: transparent;
+              -webkit-text-stroke: 2px #000;
+            }
+
             body {
                 font-family: 'Anton', sans-serif;
                 font-family: 'Montserrat', sans-serif;
@@ -76,12 +88,12 @@ $request_uri_string = $_SERVER['REQUEST_URI'];
 <div class='flex min-h-screen mt-10 md:mt-0 px-[40px]'>
   <div class="min-w-full md:flex justify-center items-center h-screen">
     <div>
-      <h2 class="text-2xl font-bold tracking-tight text-gray-900">Bayeight Booking</h2>
+      <h2 class="text-gray-900 heading1 text-[50px]">BAYEIGHT <span class="heading2">BOOKING</span></h2>
       <!-- <div><p class="text-[#717F87] text-[15px] leading-[27px] font-medium">
                Aliquam sagittis sapien in nibh tincidunt fermentum. Morbi eleifend faucibus.
            </p></div> -->
-      <div class="mt-[30px] inline-flex border border-[#E1E3E5] shadow-[0px 1px 2px #E1E3E5] divide-[#E1E3E5] divide-x rounded-[5px]">
-        <button class="bg-white hover:bg-[#F6F6F7] hover:text-[#717F87] text-[#0E1823] leading-[16px] text-[13px] font-semibold font-bold py-[15px] px-[25px] rounded-l">Available Today</button>
+      <div class="mt-[5px] inline-flex border border-[#E1E3E5] shadow-[0px 1px 2px #E1E3E5] divide-[#E1E3E5] divide-x rounded-[5px]">
+        <button class="bg-[#ff1097] hover:opacity-0.5 text-[#fff] leading-[16px] text-[13px] font-semibold font-bold py-[15px] px-[25px] rounded-l">Available Today</button>
         <button data-modal-toggle="popup-modal" class="bg-white hover:bg-[#F6F6F7] hover:text-[#717F87] text-[#0E1823] text-[13px] leading-[16px] font-semibold font-bold py-[15px] px-[25px] rounded-r">Calendar</button>
       </div>
       <div class="max-w-2xl lg:max-w-full">
@@ -91,16 +103,16 @@ $request_uri_string = $_SERVER['REQUEST_URI'];
               <div class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-80 lg:aspect-none lg:h-80">
                 <img src="https://bayeight.com/wp-content/uploads/2022/08/007-15421-W-Dixie-Hwy-Bay-8-_07.jpg" alt="Front of men&#039;s Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full">
               </div>
-              <div class="absolute inset-x-0 bottom-0 md:bottom-8 flex items-end p-4 flex items-end p-4">
+              <div class="absolute inset-x-0 bottom-0 md:bottom-14 flex items-end p-4 flex items-end p-4">
                 <button type="button" data-modal-toggle="authentication-modal" class="relative z-10 w-full rounded-md backdrop-blur-sm bg-white/30 bg-opacity-75 py-2 px-4 text-white text-sm font-medium opacity-1 md:opacity-0 focus:opacity-100 group-hover:opacity-100" @click="open = true">Quick View <span class="sr-only">, Basic Tee 6-Pack </span>
                 </button>
               </div>
             </div>
             <div class="mt-4 flex justify-between">
               <div>
-                <h3 class="text-sm text-gray-700">
+                <h3 class="text-[30px] text-gray-700">
                   <a href="#">
-                    <span aria-hidden="true" class="absolute inset-0"></span> SSL Room </a>
+                    <span aria-hidden="true" class="absolute inset-0 heading1"></span> <span class="heading1">SSL</span> <span class="heading2">ROOM</span></a>
                 </h3>
               </div>
               <p class="text-sm font-medium text-gray-900">$35</p>
@@ -111,16 +123,16 @@ $request_uri_string = $_SERVER['REQUEST_URI'];
               <div class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-80 lg:aspect-none lg:h-80">
                 <img src="https://bayeight.com/wp-content/uploads/2022/08/127-100_brighter158.jpg.jpg" alt="Front of men&#039;s Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full">
               </div>
-              <div class="absolute inset-x-0 bottom-0 md:bottom-8 flex items-end p-4 flex items-end p-4">
+              <div class="absolute inset-x-0 bottom-0 md:bottom-14 flex items-end p-4 flex items-end p-4">
                 <button type="button" data-modal-toggle="authentication-modal" class="relative z-10 w-full rounded-md backdrop-blur-sm bg-white/30 bg-opacity-75 py-2 px-4 text-white text-sm font-medium opacity-1 md:opacity-0 focus:opacity-100 group-hover:opacity-100" @click="open = true">Quick View <span class="sr-only">, Basic Tee 6-Pack </span>
                 </button>
               </div>
             </div>
             <div class="mt-4 flex justify-between">
               <div>
-                <h3 class="text-sm text-gray-700">
+                <h3 class="text-[30px] text-gray-700">
                   <a href="#">
-                    <span aria-hidden="true" class="absolute inset-0"></span> Apollo Room </a>
+                    <span aria-hidden="true" class="absolute inset-0"></span> <span class="heading1">APOLLO</span> <span class="heading2">ROOM</span> </a>
                 </h3>
               </div>
               <p class="text-sm font-medium text-gray-900">$35</p>
@@ -131,16 +143,16 @@ $request_uri_string = $_SERVER['REQUEST_URI'];
               <div class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-80 lg:aspect-none lg:h-80">
                 <img src="https://bayeight.com/wp-content/uploads/2022/08/045-15421-W-Dixie-Hwy-Bay-8-_45.jpg" alt="Front of men&#039;s Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full">
               </div>
-              <div class="absolute inset-x-0 bottom-0 md:bottom-8 flex items-end p-4 flex items-end p-4">
+              <div class="absolute inset-x-0 bottom-0 md:bottom-14 flex items-end p-4 flex items-end p-4">
                 <button type="button" data-modal-toggle="authentication-modal" class="relative z-10 w-full rounded-md backdrop-blur-sm bg-white/30 bg-opacity-75 py-2 px-4 text-white text-sm font-medium opacity-1 md:opacity-0 focus:opacity-100 group-hover:opacity-100" @click="open = true">Quick View <span class="sr-only">, Basic Tee 6-Pack </span>
                 </button>
               </div>
             </div>
             <div class="mt-4 flex justify-between">
               <div>
-                <h3 class="text-sm text-gray-700">
+                <h3 class="text-[30px] text-gray-700">
                   <a href="#">
-                    <span aria-hidden="true" class="absolute inset-0"></span> Whisper Room </a>
+                    <span aria-hidden="true" class="absolute inset-0"></span> <span class="heading1">WHISPER</span> <span class="heading2">ROOM</span> </a>
                 </h3>
               </div>
               <p class="text-sm font-medium text-gray-900">$35</p>
